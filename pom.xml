@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>qa.study.automation</groupId>
+	<artifactId>qa-study</artifactId>
+	<version>ver_0.0.1</version>
+	<packaging>jar</packaging>
+
+	<name>qa-study</name>
+	<properties>
+		<org.testng.version>6.9.4</org.testng.version>
+		<org.seleniumhq.version>2.48.2</org.seleniumhq.version>
+		<org.slf4j.version>1.7.10</org.slf4j.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${org.testng.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>${org.seleniumhq.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${org.seleniumhq.version}</version>
+		</dependency>
+	</dependencies>
+</project>
